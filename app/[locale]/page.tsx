@@ -10,7 +10,6 @@ import { RedOilFeature } from "@/components/home/RedOilFeature";
 import { WholesaleCta } from "@/components/home/WholesaleCta";
 import { DistributionSection } from "@/components/home/DistributionSection";
 import { Partners } from "@/components/home/Partners";
-import { Testimonials } from "@/components/home/Testimonials";
 import { FinalCta } from "@/components/home/FinalCta";
 
 export default async function HomePage({
@@ -24,17 +23,16 @@ export default async function HomePage({
   return (
     <>
       <Hero />
+      <FeaturedProducts />
       <CategoryIntro />
       <BrandStatement />
       <WhyFountain />
-      <FeaturedProducts />
       <RetailWholesaleSplit />
       <CoconutFeature />
       <RedOilFeature />
       <WholesaleCta />
       <DistributionSection />
       <Partners />
-      <Testimonials />
       <FinalCta />
     </>
   );
