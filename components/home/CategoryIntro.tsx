@@ -12,15 +12,15 @@ export async function CategoryIntro() {
       cta: t("coconutCta"),
       href: "/products/coconut-oil",
       image: "/products/coconut-oil.png",
-      tone: "bg-[#e8f7f5]",
+      tone: "bg-[#fff8e8]",
     },
     {
       title: t("redOilTitle"),
       desc: t("redOilDesc"),
       cta: t("redOilCta"),
       href: "/products/mamas-red-oil",
-      image: "/products/mamas-red-oil.png",
-      tone: "bg-[#FFF4EC]",
+      image: "/products/mamas-red-oil-family.jpg",
+      tone: "bg-[#ffe8de]",
     },
     {
       title: t("honeyTitle"),
@@ -28,7 +28,7 @@ export async function CategoryIntro() {
       cta: t("honeyCta"),
       href: "/products/pure-honey",
       image: "/products/pure-honey.png",
-      tone: "bg-[#f0faf8]",
+      tone: "bg-[#fff4d6]",
     },
     {
       title: t("flourTitle"),
@@ -36,7 +36,7 @@ export async function CategoryIntro() {
       cta: t("flourCta"),
       href: "/products/organic-coconut-flour",
       image: "/products/organic-coconut-flour.png",
-      tone: "bg-[#eef6f4]",
+      tone: "bg-[#eef6ea]",
     },
   ];
 

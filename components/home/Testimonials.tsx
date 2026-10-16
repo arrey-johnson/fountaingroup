@@ -13,7 +13,7 @@ export async function Testimonials() {
     <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
       <div className="flex flex-wrap items-end justify-between gap-4">
         <h2 className="font-display text-3xl sm:text-4xl">{t("testimonialsTitle")}</h2>
-        <span className="rounded-full bg-brand-teal/15 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-brand-teal">
+        <span className="rounded-full bg-brand-orange/15 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-brand-orange">
           {tc("demoBadge")}
         </span>
       </div>

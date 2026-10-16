@@ -1,18 +1,18 @@
 @import "tailwindcss";
 
-/* Fountain Group brand tokens — derived from official logo */
+/* Fountain Group brand tokens — derived from Mama's Red Oil packaging */
 :root {
-  --brand-green: #0b3d38; /* deep fountain structure / "Group" */
-  --brand-teal: #1cb8a8; /* bright water spray / "Fountain" */
-  --brand-blue: #3a9ad9; /* basin water accent */
-  --brand-amber: #e89b2c; /* product accent (oils/honey) — use sparingly */
-  --brand-orange: #e65a2f; /* Mama's Red Oil accent — use sparingly */
-  --cream: #f3f8f7;
-  --ink: #0a1f1d;
-  --surface: #f7faf9;
+  --brand-green: #006837; /* label oval forest green */
+  --brand-teal: #6faf2d; /* palm-leaf lime accent */
+  --brand-blue: #f0b429; /* warm label gold (legacy token name) */
+  --brand-amber: #ffc107; /* sunny label yellow */
+  --brand-orange: #e83a1f; /* caps + label base red-orange */
+  --cream: #fff6e4;
+  --ink: #1a2418;
+  --surface: #fffaf2;
   --white: #ffffff;
-  --muted: #4d6360;
-  --border: rgba(11, 61, 56, 0.14);
+  --muted: #5c6558;
+  --border: rgba(0, 104, 55, 0.16);
   --background: var(--surface);
   --foreground: var(--ink);
 }
@@ -58,31 +58,31 @@ h3,
 }
 
 ::selection {
-  background: color-mix(in srgb, var(--brand-teal) 28%, white);
+  background: color-mix(in srgb, var(--brand-orange) 22%, white);
   color: var(--ink);
 }
 
 :focus-visible {
-  outline: 2px solid var(--brand-teal);
+  outline: 2px solid var(--brand-green);
   outline-offset: 2px;
 }
 
 .texture-soft {
   background-image:
-    radial-gradient(ellipse at 12% 18%, rgba(28, 184, 168, 0.12), transparent 45%),
-    radial-gradient(ellipse at 88% 8%, rgba(11, 61, 56, 0.08), transparent 42%),
-    radial-gradient(ellipse at 70% 80%, rgba(58, 154, 217, 0.06), transparent 40%);
+    radial-gradient(ellipse at 12% 18%, rgba(255, 193, 7, 0.18), transparent 45%),
+    radial-gradient(ellipse at 88% 8%, rgba(232, 58, 31, 0.1), transparent 42%),
+    radial-gradient(ellipse at 70% 80%, rgba(0, 104, 55, 0.08), transparent 40%);
 }
 
 .hero-grid {
   background-image:
-    linear-gradient(to right, rgba(11, 61, 56, 0.045) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(11, 61, 56, 0.045) 1px, transparent 1px);
+    linear-gradient(to right, rgba(0, 104, 55, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 104, 55, 0.05) 1px, transparent 1px);
   background-size: 48px 48px;
 }
 
 .brand-gradient-text {
-  background: linear-gradient(90deg, var(--brand-teal) 0%, var(--brand-green) 100%);
+  background: linear-gradient(90deg, var(--brand-orange) 0%, var(--brand-green) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

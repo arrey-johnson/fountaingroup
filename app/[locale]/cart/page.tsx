@@ -14,7 +14,7 @@ export default function CartPage() {
 
   if (items.length === 0) {
     return (
-      <div className="mx-auto flex min-h-[60vh] max-w-3xl flex-col items-center justify-center px-4 pt-28 text-center">
+      <div className="mx-auto flex min-h-[60vh] max-w-3xl flex-col items-center justify-center px-4 pt-36 text-center">
         <h1 className="font-display text-4xl">{t("title")}</h1>
         <p className="mt-4 text-muted">{t("empty")}</p>
         <Button asChild className="mt-6">
@@ -25,7 +25,7 @@ export default function CartPage() {
   }
 
   return (
-    <div className="mx-auto max-w-5xl px-4 pb-20 pt-28 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-5xl px-4 pb-20 pt-36 sm:px-6 lg:px-8">
       <h1 className="font-display text-4xl">{t("title")}</h1>
       <div className="mt-10 grid gap-10 lg:grid-cols-3">
         <ul className="space-y-4 lg:col-span-2">

@@ -21,7 +21,7 @@ export default async function FaqPage({
   const loc = (await getLocale()) as Locale;
 
   return (
-    <div className="mx-auto max-w-3xl px-4 pb-20 pt-28 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-3xl px-4 pb-20 pt-36 sm:px-6 lg:px-8">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd(faqs, loc)) }}

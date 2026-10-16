@@ -140,7 +140,7 @@ insert into site_settings (key, value) values (
   'main',
   '{
     "companyName": "Fountain Group",
-    "logoUrl": "/brand/logo.jpg",
+    "logoUrl": "/brand/logo.png",
     "email": "info@fountaingroupltd.com",
     "phone": "682428954",
     "whatsapp": "237682428954",
@@ -153,7 +153,11 @@ insert into site_settings (key, value) values (
     },
     "currencyCode": "XAF",
     "currencyDisplay": "FCFA",
-    "socialLinks": { "facebook": "", "instagram": "", "linkedin": "" },
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/",
+      "instagram": "https://www.instagram.com/fountaingroupltd",
+      "linkedin": ""
+    },
     "deliveryInfo": {
       "en": "Delivery details will be confirmed when your order is processed.",
       "fr": "Les détails de livraison seront confirmés lors du traitement de votre commande."

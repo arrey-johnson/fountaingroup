@@ -11,7 +11,7 @@ export function Hero() {
   const tc = useTranslations("common");
 
   return (
-    <section className="relative overflow-hidden texture-soft pt-24 sm:pt-28">
+    <section className="relative overflow-hidden texture-soft pt-32 sm:pt-36">
       <div className="hero-grid pointer-events-none absolute inset-0 opacity-60" />
       <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-4 pb-16 pt-8 sm:px-6 lg:grid-cols-12 lg:gap-8 lg:px-8 lg:pb-24 lg:pt-12">
         <div className="lg:col-span-6 xl:col-span-5">
@@ -19,7 +19,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-xs font-semibold uppercase tracking-[0.22em] text-brand-teal"
+            className="text-xs font-semibold uppercase tracking-[0.22em] text-brand-green"
           >
             Fountain Group
           </motion.p>
@@ -58,8 +58,8 @@ export function Hero() {
         </div>
 
         <div className="relative lg:col-span-6 xl:col-span-7">
-          <div className="absolute -right-8 top-8 h-64 w-64 rounded-full bg-brand-teal/20 blur-3xl" />
-          <div className="absolute bottom-0 left-4 h-48 w-48 rounded-full bg-brand-green/10 blur-3xl" />
+          <div className="absolute -right-8 top-8 h-64 w-64 rounded-full bg-brand-orange/20 blur-3xl" />
+          <div className="absolute bottom-0 left-4 h-48 w-48 rounded-full bg-brand-amber/25 blur-3xl" />
           <div className="relative grid grid-cols-12 items-end gap-3 sm:gap-4">
             <motion.div
               initial={{ opacity: 0, y: 40 }}
@@ -83,9 +83,9 @@ export function Hero() {
               transition={{ duration: 0.75, delay: 0.25 }}
               className="col-span-7"
             >
-              <div className="relative aspect-[4/5] overflow-hidden rounded-sm bg-[#e8f7f5] shadow-[0_36px_70px_-30px_rgba(11,61,56,0.35)]">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-sm bg-[#fff1e4] shadow-[0_36px_70px_-30px_rgba(232,58,31,0.35)]">
                 <Image
-                  src="/products/mamas-red-oil.png"
+                  src="/products/mamas-red-oil-family.jpg"
                   alt="Mama's Red Oil"
                   fill
                   className="object-contain p-3"

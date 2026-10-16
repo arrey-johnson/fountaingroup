@@ -55,7 +55,7 @@ export function ProductDetail({
   };
 
   return (
-    <div className="mx-auto max-w-7xl px-4 pb-28 pt-28 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-7xl px-4 pb-28 pt-36 sm:px-6 lg:px-8">
       <div className="grid gap-10 lg:grid-cols-2">
         <div>
           <div className="relative aspect-[4/5] bg-cream">

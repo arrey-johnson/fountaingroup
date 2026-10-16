@@ -16,7 +16,7 @@ export default async function OrderConfirmationPage({
   if (!order) notFound();
 
   return (
-    <div className="mx-auto max-w-2xl px-4 pb-20 pt-28 text-center">
+    <div className="mx-auto max-w-2xl px-4 pb-20 pt-36 text-center">
       <h1 className="font-display text-4xl">{t("confirmationTitle")}</h1>
       <p className="mt-4 text-muted">{t("confirmationIntro")}</p>
       <p className="mt-8 text-sm uppercase tracking-[0.16em] text-brand-green">

@@ -15,7 +15,7 @@ export default async function ContactPage({
   const loc = (await getLocale()) as Locale;
 
   return (
-    <div className="mx-auto grid max-w-6xl gap-12 px-4 pb-20 pt-28 sm:px-6 lg:grid-cols-2 lg:px-8">
+    <div className="mx-auto grid max-w-6xl gap-12 px-4 pb-20 pt-36 sm:px-6 lg:grid-cols-2 lg:px-8">
       <div>
         <h1 className="font-display text-4xl sm:text-5xl">{t("title")}</h1>
         <p className="mt-4 text-muted">{t("intro")}</p>

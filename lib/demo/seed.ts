@@ -9,7 +9,7 @@ import type {
 
 export const siteSettings: SiteSettings = {
   companyName: "Fountain Group",
-  logoUrl: "/brand/logo.jpg",
+  logoUrl: "/brand/logo.png",
   email: "info@fountaingroupltd.com",
   phone: "682428954",
   whatsapp: "237682428954",

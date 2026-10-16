@@ -20,15 +20,13 @@ export function Footer({ settings }: { settings: SiteSettings }) {
     <footer className="bg-brand-green text-cream">
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 lg:grid-cols-12 lg:px-8 lg:py-20">
         <div className="lg:col-span-4">
-          <div className="inline-flex rounded-sm bg-white px-3 py-2">
-            <Image
-              src={settings.logoUrl || "/brand/logo.jpg"}
-              alt={settings.companyName}
-              width={140}
-              height={130}
-              className="h-14 w-auto object-contain"
-            />
-          </div>
+          <Image
+            src={settings.logoUrl || "/brand/logo.png"}
+            alt={settings.companyName}
+            width={160}
+            height={150}
+            className="h-16 w-auto object-contain"
+          />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-cream/70">
             {t("description")}
           </p>
@@ -49,7 +47,7 @@ export function Footer({ settings }: { settings: SiteSettings }) {
         </div>
 
         <div className="lg:col-span-2">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-teal">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-amber">
             {t("quickLinks")}
           </p>
           <ul className="mt-4 space-y-2 text-sm text-cream/75">
@@ -62,7 +60,7 @@ export function Footer({ settings }: { settings: SiteSettings }) {
         </div>
 
         <div className="lg:col-span-2">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-teal">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-amber">
             {t("customer")}
           </p>
           <ul className="mt-4 space-y-2 text-sm text-cream/75">
@@ -74,7 +72,7 @@ export function Footer({ settings }: { settings: SiteSettings }) {
         </div>
 
         <div className="lg:col-span-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-teal">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-amber">
             {t("contact")}
           </p>
           <ul className="mt-4 space-y-2 text-sm text-cream/75">

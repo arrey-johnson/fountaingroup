@@ -6,7 +6,7 @@ export default async function NotFound() {
   const t = await getTranslations("errors");
 
   return (
-    <div className="mx-auto flex min-h-[60vh] max-w-xl flex-col items-center justify-center px-4 pt-28 text-center">
+    <div className="mx-auto flex min-h-[60vh] max-w-xl flex-col items-center justify-center px-4 pt-36 text-center">
       <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-green">
         Fountain Group
       </p>

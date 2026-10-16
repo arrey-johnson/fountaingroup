@@ -19,12 +19,12 @@ export function CheckoutForm() {
   const total = subtotal();
 
   if (!items.length) {
-    return <p className="pt-28 text-center text-muted">Your cart is empty.</p>;
+    return <p className="pt-36 text-center text-muted">Your cart is empty.</p>;
   }
 
   return (
     <form
-      className="mx-auto grid max-w-5xl gap-10 px-4 pb-20 pt-28 sm:px-6 lg:grid-cols-5 lg:px-8"
+      className="mx-auto grid max-w-5xl gap-10 px-4 pb-20 pt-36 sm:px-6 lg:grid-cols-5 lg:px-8"
       onSubmit={(e) => {
         e.preventDefault();
         const fd = new FormData(e.currentTarget);
