@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+/* Fountain Group brand tokens — derived from official logo */
+:root {
+  --brand-green: #0b3d38; /* deep fountain structure / "Group" */
+  --brand-teal: #1cb8a8; /* bright water spray / "Fountain" */
+  --brand-blue: #3a9ad9; /* basin water accent */
+  --brand-amber: #e89b2c; /* product accent (oils/honey) — use sparingly */
+  --brand-orange: #e65a2f; /* Mama's Red Oil accent — use sparingly */
+  --cream: #f3f8f7;
+  --ink: #0a1f1d;
+  --surface: #f7faf9;
+  --white: #ffffff;
+  --muted: #4d6360;
+  --border: rgba(11, 61, 56, 0.14);
+  --background: var(--surface);
+  --foreground: var(--ink);
+}
+
+@theme inline {
+  --color-brand-green: var(--brand-green);
+  --color-brand-teal: var(--brand-teal);
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-amber: var(--brand-amber);
+  --color-brand-orange: var(--brand-orange);
+  --color-cream: var(--cream);
+  --color-ink: var(--ink);
+  --color-surface: var(--surface);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-dm-sans);
+  --font-display: var(--font-fraunces);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-dm-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-fraunces), Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--brand-teal) 28%, white);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-teal);
+  outline-offset: 2px;
+}
+
+.texture-soft {
+  background-image:
+    radial-gradient(ellipse at 12% 18%, rgba(28, 184, 168, 0.12), transparent 45%),
+    radial-gradient(ellipse at 88% 8%, rgba(11, 61, 56, 0.08), transparent 42%),
+    radial-gradient(ellipse at 70% 80%, rgba(58, 154, 217, 0.06), transparent 40%);
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(to right, rgba(11, 61, 56, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(11, 61, 56, 0.045) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.brand-gradient-text {
+  background: linear-gradient(90deg, var(--brand-teal) 0%, var(--brand-green) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

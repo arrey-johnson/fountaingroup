@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#FFF8F2"/>
+  <rect x="180" y="220" width="180" height="420" rx="16" fill="#E65A2F"/>
+  <rect x="400" y="180" width="220" height="520" rx="16" fill="#0B5A3C"/>
+  <rect x="200" y="300" width="140" height="180" rx="6" fill="#F7F3E8"/>
+  <rect x="430" y="260" width="160" height="220" rx="6" fill="#E89B2C"/>
+  <text x="400" y="780" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#17211B">Mama's Red Oil</text>
+  <text x="400" y="820" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5C665F">Organic &amp; Natural · 1L / 5L</text>
+  <text x="400" y="920" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5C665F">Replace with /public/products/mamas-red-oil.jpg</text>
+</svg>
