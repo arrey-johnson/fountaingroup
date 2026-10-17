@@ -342,13 +342,13 @@ const images = [
   ["b1111111-1111-1111-1111-111111111112", "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb", "/products/mamas-red-oil-1l.png", "Mama's Red Oil 1L bottle", "Mama's Red Oil bouteille 1L", 1],
   ["b1111111-1111-1111-1111-111111111113", "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb", "/products/mamas-red-oil-5l.png", "Mama's Red Oil 5L jug", "Mama's Red Oil bidon 5L", 2],
   ["b1111111-1111-1111-1111-111111111114", "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb", "/products/mamas-red-oil-pair.png", "Mama's Red Oil bottle pair", "Mama's Red Oil paire de bouteilles", 3],
-  ["e1111111-1111-1111-1111-111111111111", "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee", "/products/avocado-oil.svg", "Fountain Group Avocado Oil", "Huile d’avocat Fountain Group", 0],
-  ["f0111111-1111-1111-1111-111111111111", "f0f0f0f0-f0f0-f0f0-f0f0-f0f0f0f0f0f0", "/products/palm-kernel-oil.svg", "Fountain Group Palm Kernel Oil", "Huile de palmiste Fountain Group", 0],
-  ["f1111111-1111-1111-1111-111111111111", "f1f1f1f1-f1f1-f1f1-f1f1-f1f1f1f1f1f1", "/products/refined-red-palm-oil.svg", "Fountain Group Refined Red Palm Oil", "Huile de palme rouge raffinée Fountain Group", 0],
-  ["f2111111-1111-1111-1111-111111111111", "f2f2f2f2-f2f2-f2f2-f2f2-f2f2f2f2f2f2", "/products/avocados.svg", "Fountain Group Avocados", "Avocats Fountain Group", 0],
-  ["f3111111-1111-1111-1111-111111111111", "f3f3f3f3-f3f3-f3f3-f3f3-f3f3f3f3f3f3", "/products/mangoes.svg", "Fountain Group Mangoes", "Mangues Fountain Group", 0],
-  ["f4111111-1111-1111-1111-111111111111", "f4f4f4f4-f4f4-f4f4-f4f4-f4f4f4f4f4f4", "/products/coconuts.svg", "Fountain Group Coconuts", "Noix de coco Fountain Group", 0],
-  ["f5111111-1111-1111-1111-111111111111", "f5f5f5f5-f5f5-f5f5-f5f5-f5f5f5f5f5f5", "/products/pineapples.svg", "Fountain Group Pineapples", "Ananas Fountain Group", 0],
+  ["e1111111-1111-1111-1111-111111111111", "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee", "/products/avocado-oil.png", "Fountain Group Avocado Oil", "Huile d’avocat Fountain Group", 0],
+  ["f0111111-1111-1111-1111-111111111111", "f0f0f0f0-f0f0-f0f0-f0f0-f0f0f0f0f0f0", "/products/palm-kernel-oil.png", "Fountain Group Palm Kernel Oil", "Huile de palmiste Fountain Group", 0],
+  ["f1111111-1111-1111-1111-111111111111", "f1f1f1f1-f1f1-f1f1-f1f1-f1f1f1f1f1f1", "/products/refined-red-palm-oil.png", "Fountain Group Refined Red Palm Oil", "Huile de palme rouge raffinée Fountain Group", 0],
+  ["f2111111-1111-1111-1111-111111111111", "f2f2f2f2-f2f2-f2f2-f2f2-f2f2f2f2f2f2", "/products/avocados.png", "Fountain Group Avocados", "Avocats Fountain Group", 0],
+  ["f3111111-1111-1111-1111-111111111111", "f3f3f3f3-f3f3-f3f3-f3f3-f3f3f3f3f3f3", "/products/mangoes.png", "Fountain Group Mangoes", "Mangues Fountain Group", 0],
+  ["f4111111-1111-1111-1111-111111111111", "f4f4f4f4-f4f4-f4f4-f4f4-f4f4f4f4f4f4", "/products/coconuts.png", "Fountain Group Coconuts", "Noix de coco Fountain Group", 0],
+  ["f5111111-1111-1111-1111-111111111111", "f5f5f5f5-f5f5-f5f5-f5f5-f5f5f5f5f5f5", "/products/pineapples.png", "Fountain Group Pineapples", "Ananas Fountain Group", 0],
 ];
 
 const variants = [

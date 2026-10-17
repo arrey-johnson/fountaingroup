@@ -243,7 +243,7 @@ export const products: Product[] = [
       {
         id: "img-ao-1",
         productId: "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
-        url: "/products/avocado-oil.svg",
+        url: "/products/avocado-oil.png",
         alt: { en: "Fountain Group Avocado Oil", fr: "Huile d’avocat Fountain Group" },
         sortOrder: 0,
       },
@@ -297,7 +297,7 @@ export const products: Product[] = [
       {
         id: "img-pko-1",
         productId: "f0f0f0f0-f0f0-f0f0-f0f0-f0f0f0f0f0f0",
-        url: "/products/palm-kernel-oil.svg",
+        url: "/products/palm-kernel-oil.png",
         alt: { en: "Fountain Group Palm Kernel Oil", fr: "Huile de palmiste Fountain Group" },
         sortOrder: 0,
       },
@@ -354,7 +354,7 @@ export const products: Product[] = [
       {
         id: "img-rrpo-1",
         productId: "f1f1f1f1-f1f1-f1f1-f1f1-f1f1f1f1f1f1",
-        url: "/products/refined-red-palm-oil.svg",
+        url: "/products/refined-red-palm-oil.png",
         alt: {
           en: "Fountain Group Refined Red Palm Oil",
           fr: "Huile de palme rouge raffinée Fountain Group",
@@ -411,7 +411,7 @@ export const products: Product[] = [
       {
         id: "img-avo-1",
         productId: "f2f2f2f2-f2f2-f2f2-f2f2-f2f2f2f2f2f2",
-        url: "/products/avocados.svg",
+        url: "/products/avocados.png",
         alt: { en: "Fountain Group Avocados", fr: "Avocats Fountain Group" },
         sortOrder: 0,
       },
@@ -465,7 +465,7 @@ export const products: Product[] = [
       {
         id: "img-man-1",
         productId: "f3f3f3f3-f3f3-f3f3-f3f3-f3f3f3f3f3f3",
-        url: "/products/mangoes.svg",
+        url: "/products/mangoes.png",
         alt: { en: "Fountain Group Mangoes", fr: "Mangues Fountain Group" },
         sortOrder: 0,
       },
@@ -519,7 +519,7 @@ export const products: Product[] = [
       {
         id: "img-coc-1",
         productId: "f4f4f4f4-f4f4-f4f4-f4f4-f4f4f4f4f4f4",
-        url: "/products/coconuts.svg",
+        url: "/products/coconuts.png",
         alt: { en: "Fountain Group Coconuts", fr: "Noix de coco Fountain Group" },
         sortOrder: 0,
       },
@@ -573,7 +573,7 @@ export const products: Product[] = [
       {
         id: "img-pin-1",
         productId: "f5f5f5f5-f5f5-f5f5-f5f5-f5f5f5f5f5f5",
-        url: "/products/pineapples.svg",
+        url: "/products/pineapples.png",
         alt: { en: "Fountain Group Pineapples", fr: "Ananas Fountain Group" },
         sortOrder: 0,
       },
