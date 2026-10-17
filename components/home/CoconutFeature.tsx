@@ -19,7 +19,7 @@ export async function CoconutFeature() {
         </div>
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-green">
-            Pure & Natural
+            Pure
           </p>
           <h2 className="mt-3 font-display text-3xl sm:text-4xl">{t("coconutStoryTitle")}</h2>
           <p className="mt-5 max-w-md leading-relaxed text-muted">{t("coconutStoryDesc")}</p>

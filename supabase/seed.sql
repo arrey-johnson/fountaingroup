@@ -155,7 +155,7 @@ insert into site_settings (key, value) values (
     "currencyDisplay": "FCFA",
     "socialLinks": {
       "facebook": "https://www.facebook.com/",
-      "instagram": "https://www.instagram.com/fountaingroupltd",
+      "instagram": "https://www.instagram.com/fountain.group",
       "linkedin": ""
     },
     "deliveryInfo": {

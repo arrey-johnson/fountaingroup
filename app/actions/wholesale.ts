@@ -13,8 +13,13 @@ export async function submitWholesaleAction(form: unknown) {
   const productNames: Record<string, string> = {
     "coconut-oil": "Fountain Group Coconut Oil",
     "mamas-red-oil": "Mama's Red Oil",
-    "pure-honey": "Fountain Group Pure Honey",
-    "organic-coconut-flour": "Organic Coconut Flour",
+    "avocado-oil": "Avocado Oil",
+    "palm-kernel-oil": "Palm Kernel Oil",
+    "refined-red-palm-oil": "Refined Red Palm Oil",
+    avocados: "Avocados (Pear)",
+    mangoes: "Mangoes",
+    coconuts: "Coconuts",
+    pineapples: "Pineapples",
     multiple: "Multiple Products",
   };
   const productName = productNames[d.productSelection] ?? "Multiple Products";

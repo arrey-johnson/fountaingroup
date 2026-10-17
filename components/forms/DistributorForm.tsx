@@ -66,10 +66,16 @@ export function DistributorForm() {
           <input type="checkbox" name="productsInterested" value="mamas-red-oil" /> Mama&apos;s Red Oil
         </label>
         <label className="mt-2 flex items-center gap-2 text-sm">
-          <input type="checkbox" name="productsInterested" value="pure-honey" /> Pure Honey
+          <input type="checkbox" name="productsInterested" value="avocado-oil" /> Avocado Oil
         </label>
         <label className="mt-2 flex items-center gap-2 text-sm">
-          <input type="checkbox" name="productsInterested" value="organic-coconut-flour" /> Organic Coconut Flour
+          <input type="checkbox" name="productsInterested" value="palm-kernel-oil" /> Palm Kernel Oil
+        </label>
+        <label className="mt-2 flex items-center gap-2 text-sm">
+          <input type="checkbox" name="productsInterested" value="refined-red-palm-oil" /> Refined Red Palm Oil
+        </label>
+        <label className="mt-2 flex items-center gap-2 text-sm">
+          <input type="checkbox" name="productsInterested" value="fruits" /> Fruits
         </label>
       </fieldset>
       <div>

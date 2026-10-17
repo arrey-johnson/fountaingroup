@@ -4,6 +4,6 @@
   <rect x="290" y="280" width="220" height="280" rx="8" fill="#FAF9F5"/>
   <text x="400" y="400" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#0B5A3C">Fountain Group</text>
   <text x="400" y="450" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#17211B">Coconut Oil</text>
-  <text x="400" y="490" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5C665F">Pure &amp; Natural · 1L</text>
+  <text x="400" y="490" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5C665F">Pure · 1L</text>
   <text x="400" y="920" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#5C665F">Replace with /public/products/coconut-oil.jpg</text>
 </svg>

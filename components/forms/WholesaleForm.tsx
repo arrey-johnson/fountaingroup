@@ -82,8 +82,13 @@ export function WholesaleForm() {
           <select id="productSelection" name="productSelection" className="mt-1 h-11 w-full rounded-md border px-3 text-sm" required>
             <option value="coconut-oil">Coconut Oil</option>
             <option value="mamas-red-oil">Mama&apos;s Red Oil</option>
-            <option value="pure-honey">Pure Honey</option>
-            <option value="organic-coconut-flour">Organic Coconut Flour</option>
+            <option value="avocado-oil">Avocado Oil</option>
+            <option value="palm-kernel-oil">Palm Kernel Oil</option>
+            <option value="refined-red-palm-oil">Refined Red Palm Oil</option>
+            <option value="avocados">Avocados (Pear)</option>
+            <option value="mangoes">Mangoes</option>
+            <option value="coconuts">Coconuts</option>
+            <option value="pineapples">Pineapples</option>
             <option value="multiple">Multiple Products</option>
           </select>
         </div>
