@@ -1,13 +1,13 @@
-@import "tailwindcss";
+﻿@import "tailwindcss";
 
-/* Fountain Group brand tokens — derived only from the official logo */
+/* Fountain Group brand tokens ÔÇö derived only from the official logo */
 :root {
   --brand-green: #062f29; /* fountain structure / "Group" */
   --brand-teal: #2f9a98; /* "Fountain" wordmark */
   --brand-blue: #48c1c8; /* bright water spray */
   --brand-amber: #7ecfcf; /* mid aqua (logo mid-tone) */
   --brand-mint: #a7e4e4; /* light spray highlight */
-  --brand-orange: #48c1c8; /* secondary actions → logo cyan */
+  --brand-orange: #48c1c8; /* secondary actions ÔåÆ logo cyan */
   --cream: #eef8f7;
   --ink: #062f29;
   --surface: #f6fbfb;

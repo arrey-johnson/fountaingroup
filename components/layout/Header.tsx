@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { Menu, Search, ShoppingBag, User, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/lib/i18n/navigation";
@@ -60,11 +61,17 @@ export function Header({ settings }: { settings: SiteSettings }) {
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:h-[4.5rem] sm:px-6 lg:px-8">
           <Link
             href="/"
-            className="relative z-10 shrink-0 font-display text-xl tracking-tight sm:text-2xl"
+            className="relative z-10 flex shrink-0 items-center"
             aria-label="Fountain Group home"
           >
-            <span className="text-brand-teal">Fountain</span>{" "}
-            <span className="text-brand-green">Group</span>
+            <Image
+              src="/brand/logo-horizontal.png"
+              alt="Fountain Group"
+              width={320}
+              height={96}
+              priority
+              className="h-10 w-auto object-contain sm:h-12"
+            />
           </Link>
 
           <nav className="hidden items-center gap-7 lg:flex" aria-label="Primary">

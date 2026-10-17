@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/lib/i18n/navigation";
 import type { SiteSettings } from "@/types";
@@ -19,9 +20,13 @@ export function Footer({ settings }: { settings: SiteSettings }) {
     <footer className="bg-brand-green text-cream">
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 lg:grid-cols-12 lg:px-8 lg:py-20">
         <div className="lg:col-span-4">
-          <p className="font-display text-2xl tracking-tight text-white sm:text-3xl">
-            <span className="text-brand-blue">Fountain</span> Group
-          </p>
+          <Image
+            src="/brand/logo-horizontal.png"
+            alt={settings.companyName}
+            width={260}
+            height={78}
+            className="h-12 w-auto object-contain"
+          />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-cream/70">
             {t("description")}
           </p>

@@ -179,7 +179,7 @@ export function mapSettings(value: Record<string, unknown>): SiteSettings {
 
   return {
     companyName: String(value.companyName ?? "Fountain Group"),
-    logoUrl: String(value.logoUrl ?? "/brand/logo.png"),
+    logoUrl: String(value.logoUrl ?? "/brand/logo-horizontal.png"),
     email: String(value.email ?? ""),
     phone: String(value.phone ?? ""),
     whatsapp: String(value.whatsapp ?? ""),

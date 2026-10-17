@@ -485,7 +485,7 @@ insert into site_settings (key, value) values (
   'main',
   '{
     "companyName": "Fountain Group",
-    "logoUrl": "/brand/logo.png",
+    "logoUrl": "/brand/logo-horizontal.png",
     "email": "info@fountaingroupltd.com",
     "phone": "682428954",
     "whatsapp": "237682428954",
