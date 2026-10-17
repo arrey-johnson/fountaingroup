@@ -11,12 +11,12 @@ const buttonVariants = cva(
         default:
           "bg-brand-green text-white hover:bg-brand-green/90 hover:-translate-y-0.5",
         secondary:
-          "bg-brand-orange text-white hover:bg-brand-orange/90 hover:-translate-y-0.5",
+          "bg-brand-teal text-white hover:bg-brand-teal/90 hover:-translate-y-0.5",
         outline:
-          "border border-ink/15 bg-transparent text-ink hover:border-brand-green hover:text-brand-green",
-        ghost: "bg-transparent text-ink hover:bg-brand-green/10",
+          "border border-ink/15 bg-transparent text-ink hover:border-brand-teal hover:text-brand-green",
+        ghost: "bg-transparent text-ink hover:bg-brand-teal/10",
         cream: "bg-cream text-ink hover:bg-white",
-        destructive: "bg-brand-orange text-white hover:bg-brand-orange/90",
+        destructive: "bg-brand-green text-white hover:bg-brand-green/90",
       },
       size: {
         default: "h-11 px-6",

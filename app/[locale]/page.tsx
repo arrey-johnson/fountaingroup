@@ -1,6 +1,5 @@
 import { setRequestLocale } from "next-intl/server";
 import { Hero } from "@/components/home/Hero";
-import { CategoryIntro } from "@/components/home/CategoryIntro";
 import { BrandStatement } from "@/components/home/BrandStatement";
 import { WhyFountain } from "@/components/home/WhyFountain";
 import { FeaturedProducts } from "@/components/home/FeaturedProducts";
@@ -24,7 +23,6 @@ export default async function HomePage({
     <>
       <Hero />
       <FeaturedProducts />
-      <CategoryIntro />
       <BrandStatement />
       <WhyFountain />
       <RetailWholesaleSplit />

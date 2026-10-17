@@ -58,8 +58,8 @@ export function Hero() {
         </div>
 
         <div className="relative lg:col-span-6 xl:col-span-7">
-          <div className="absolute -right-8 top-8 h-64 w-64 rounded-full bg-brand-orange/20 blur-3xl" />
-          <div className="absolute bottom-0 left-4 h-48 w-48 rounded-full bg-brand-amber/25 blur-3xl" />
+          <div className="absolute -right-8 top-8 h-64 w-64 rounded-full bg-brand-blue/25 blur-3xl" />
+          <div className="absolute bottom-0 left-4 h-48 w-48 rounded-full bg-brand-teal/20 blur-3xl" />
           <div className="relative grid grid-cols-12 items-end gap-3 sm:gap-4">
             <motion.div
               initial={{ opacity: 0, y: 40 }}
@@ -83,7 +83,7 @@ export function Hero() {
               transition={{ duration: 0.75, delay: 0.25 }}
               className="col-span-7"
             >
-              <div className="relative aspect-[4/5] overflow-hidden rounded-sm bg-[#fff1e4] shadow-[0_36px_70px_-30px_rgba(232,58,31,0.35)]">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-sm bg-[#e8f7f6] shadow-[0_36px_70px_-30px_rgba(6,47,41,0.35)]">
                 <Image
                   src="/products/mamas-red-oil-family.jpg"
                   alt="Mama's Red Oil"

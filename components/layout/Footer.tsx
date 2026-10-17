@@ -20,7 +20,7 @@ export function Footer({ settings }: { settings: SiteSettings }) {
       <div className="mx-auto grid max-w-7xl gap-12 px-4 py-16 sm:px-6 lg:grid-cols-12 lg:px-8 lg:py-20">
         <div className="lg:col-span-4">
           <p className="font-display text-2xl tracking-tight text-white sm:text-3xl">
-            <span className="text-brand-amber">Fountain</span> Group
+            <span className="text-brand-blue">Fountain</span> Group
           </p>
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-cream/70">
             {t("description")}
@@ -42,7 +42,7 @@ export function Footer({ settings }: { settings: SiteSettings }) {
         </div>
 
         <div className="lg:col-span-2">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-amber">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-blue">
             {t("quickLinks")}
           </p>
           <ul className="mt-4 space-y-2 text-sm text-cream/75">
@@ -55,7 +55,7 @@ export function Footer({ settings }: { settings: SiteSettings }) {
         </div>
 
         <div className="lg:col-span-2">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-amber">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-blue">
             {t("customer")}
           </p>
           <ul className="mt-4 space-y-2 text-sm text-cream/75">
@@ -67,7 +67,7 @@ export function Footer({ settings }: { settings: SiteSettings }) {
         </div>
 
         <div className="lg:col-span-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-amber">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-blue">
             {t("contact")}
           </p>
           <ul className="mt-4 space-y-2 text-sm text-cream/75">

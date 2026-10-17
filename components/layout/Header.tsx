@@ -63,7 +63,7 @@ export function Header({ settings }: { settings: SiteSettings }) {
             className="relative z-10 shrink-0 font-display text-xl tracking-tight sm:text-2xl"
             aria-label="Fountain Group home"
           >
-            <span className="brand-gradient-text">Fountain</span>{" "}
+            <span className="text-brand-teal">Fountain</span>{" "}
             <span className="text-brand-green">Group</span>
           </Link>
 
@@ -117,7 +117,7 @@ export function Header({ settings }: { settings: SiteSettings }) {
             >
               <ShoppingBag className="h-5 w-5" />
               {itemCount > 0 && (
-                <span className="absolute right-1 top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-brand-orange px-1 text-[10px] font-bold text-white">
+                <span className="absolute right-1 top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-brand-teal px-1 text-[10px] font-bold text-white">
                   {itemCount}
                 </span>
               )}

@@ -10,7 +10,7 @@ export async function RedOilFeature() {
     <section className="bg-gradient-to-br from-[#FFF4EC] via-white to-[#F3F8F5]">
       <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-20 sm:px-6 lg:grid-cols-2 lg:px-8">
         <div className="order-2 lg:order-1">
-          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-orange">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-brand-teal">
             {t("redOilStorySub")}
           </p>
           <h2 className="mt-3 font-display text-3xl text-ink sm:text-5xl">
@@ -22,7 +22,7 @@ export async function RedOilFeature() {
           </Button>
         </div>
         <div className="relative order-1 aspect-square lg:order-2">
-          <div className="absolute inset-6 rounded-full bg-brand-orange/10" />
+          <div className="absolute inset-6 rounded-full bg-brand-teal/10" />
           <Image
             src="/products/mamas-red-oil.png"
             alt="Mama's Red Oil packaging"

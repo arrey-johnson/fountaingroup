@@ -6,7 +6,7 @@ export async function BrandStatement() {
   return (
     <section className="border-y border-border bg-white">
       <div className="mx-auto grid max-w-7xl gap-6 px-4 py-16 sm:px-6 lg:grid-cols-12 lg:px-8 lg:py-24">
-        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-orange lg:col-span-3">
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-teal lg:col-span-3">
           Natural Goodness
         </p>
         <div className="lg:col-span-9">
