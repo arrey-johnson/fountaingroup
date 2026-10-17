@@ -25,7 +25,7 @@ export function Footer({ settings }: { settings: SiteSettings }) {
             alt={settings.companyName}
             width={260}
             height={78}
-            className="h-12 w-auto object-contain"
+            className="h-14 w-auto object-contain sm:h-16"
           />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-cream/70">
             {t("description")}

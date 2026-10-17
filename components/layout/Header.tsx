@@ -58,7 +58,7 @@ export function Header({ settings }: { settings: SiteSettings }) {
             : "bg-surface/80 backdrop-blur-sm",
         )}
       >
-        <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:h-[4.5rem] sm:px-6 lg:px-8">
+        <div className="mx-auto flex h-[4.75rem] max-w-7xl items-center justify-between gap-4 px-4 sm:h-[5.5rem] sm:px-6 lg:px-8">
           <Link
             href="/"
             className="relative z-10 flex shrink-0 items-center"
@@ -67,10 +67,10 @@ export function Header({ settings }: { settings: SiteSettings }) {
             <Image
               src="/brand/logo-horizontal.png"
               alt="Fountain Group"
-              width={320}
-              height={96}
+              width={420}
+              height={126}
               priority
-              className="h-10 w-auto object-contain sm:h-12"
+              className="h-12 w-auto object-contain sm:h-14 lg:h-16"
             />
           </Link>
 
