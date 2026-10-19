@@ -6,6 +6,34 @@ import { Link } from "@/lib/i18n/navigation";
 import type { SiteSettings } from "@/types";
 import { NewsletterForm } from "@/components/forms/NewsletterForm";
 
+function isRealSocialUrl(href?: string) {
+  if (!href) return false;
+  const trimmed = href.trim();
+  if (!trimmed || trimmed === "#") return false;
+  try {
+    const url = new URL(trimmed);
+    const host = url.hostname.replace(/^www\./, "");
+    if (host === "facebook.com" && (url.pathname === "/" || url.pathname === "")) {
+      return false;
+    }
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function formatPhoneDisplay(phone: string) {
+  const digits = phone.replace(/\D/g, "");
+  if (digits.length === 9) {
+    return `+237 ${digits.slice(0, 1)} ${digits.slice(1, 3)} ${digits.slice(3, 5)} ${digits.slice(5, 7)} ${digits.slice(7)}`;
+  }
+  if (digits.startsWith("237") && digits.length === 12) {
+    const local = digits.slice(3);
+    return `+237 ${local.slice(0, 1)} ${local.slice(1, 3)} ${local.slice(3, 5)} ${local.slice(5, 7)} ${local.slice(7)}`;
+  }
+  return phone.startsWith("+") ? phone : `+237 ${phone}`;
+}
+
 export function Footer({ settings }: { settings: SiteSettings }) {
   const t = useTranslations("footer");
   const tn = useTranslations("nav");
@@ -14,7 +42,7 @@ export function Footer({ settings }: { settings: SiteSettings }) {
     { href: settings.socialLinks.facebook, label: "Facebook" },
     { href: settings.socialLinks.instagram, label: "Instagram" },
     { href: settings.socialLinks.linkedin, label: "LinkedIn" },
-  ].filter((s) => Boolean(s.href));
+  ].filter((s) => isRealSocialUrl(s.href));
 
   return (
     <footer className="bg-brand-green text-cream">
@@ -36,6 +64,8 @@ export function Footer({ settings }: { settings: SiteSettings }) {
                 <a
                   key={s.label}
                   href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={s.label}
                   className="rounded-md border border-white/15 px-3 py-1.5 text-xs uppercase tracking-wider hover:bg-white/10"
                 >
@@ -76,10 +106,12 @@ export function Footer({ settings }: { settings: SiteSettings }) {
             {t("contact")}
           </p>
           <ul className="mt-4 space-y-2 text-sm text-cream/75">
-            <li>{settings.phone}</li>
-            <li>{settings.email}</li>
-            <li>{settings.address}</li>
-            <li>{settings.city}, {settings.country}</li>
+            {settings.phone && <li>{formatPhoneDisplay(settings.phone)}</li>}
+            {settings.email && <li>{settings.email}</li>}
+            {settings.address && <li>{settings.address}</li>}
+            {(settings.city || settings.country) && (
+              <li>{[settings.city, settings.country].filter(Boolean).join(", ")}</li>
+            )}
           </ul>
           <div className="mt-6">
             <p className="mb-3 text-sm font-medium text-white">{t("newsletter")}</p>

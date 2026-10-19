@@ -9,5 +9,8 @@ export async function submitContactAction(form: unknown) {
     return { ok: false as const, error: "Please complete the form correctly." };
   }
   await createContactMessage(parsed.data);
-  return { ok: true as const, message: "Message sent. We will respond shortly." };
+  return {
+    ok: true as const,
+    message: "Thank you. Your message has been sent. We will respond shortly.",
+  };
 }

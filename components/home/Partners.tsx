@@ -19,7 +19,7 @@ export async function Partners() {
           <p className="mt-4 text-muted">{t("partnersIntro")}</p>
         </div>
 
-        <ul className="mt-12 grid grid-cols-2 items-stretch gap-4 sm:grid-cols-3 lg:grid-cols-5">
+        <ul className="mt-12 grid grid-cols-2 items-stretch gap-4 sm:grid-cols-4">
           {partners.map((partner) => (
             <li
               key={partner.id}

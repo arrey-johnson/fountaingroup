@@ -435,7 +435,7 @@ async function main() {
     socialLinks: {
       ...((settings?.value && settings.value.socialLinks) || {}),
       instagram: "https://www.instagram.com/fountain.group",
-      facebook: "https://www.facebook.com/",
+      facebook: "",
     },
   };
   await admin.from("site_settings").upsert({

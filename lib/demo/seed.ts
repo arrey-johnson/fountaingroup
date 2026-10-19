@@ -18,13 +18,13 @@ export const siteSettings: SiteSettings = {
   city: "Douala",
   country: "Cameroon",
   businessHours: {
-    en: "Monday – Friday: 8:00 – 17:00 (placeholder)",
-    fr: "Lundi – Vendredi : 8h00 – 17h00 (à confirmer)",
+    en: "",
+    fr: "",
   },
   currencyCode: "XAF",
   currencyDisplay: "FCFA",
   socialLinks: {
-    facebook: "https://www.facebook.com/",
+    facebook: "",
     instagram: "https://www.instagram.com/fountain.group",
     linkedin: "",
   },

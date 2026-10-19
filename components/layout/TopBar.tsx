@@ -28,6 +28,22 @@ function LinkedInIcon({ className }: { className?: string }) {
   );
 }
 
+function isRealSocialUrl(href?: string) {
+  if (!href) return false;
+  const trimmed = href.trim();
+  if (!trimmed || trimmed === "#") return false;
+  try {
+    const url = new URL(trimmed);
+    const host = url.hostname.replace(/^www\./, "");
+    if (host === "facebook.com" && (url.pathname === "/" || url.pathname === "")) {
+      return false;
+    }
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 function formatPhoneDisplay(phone: string) {
   const digits = phone.replace(/\D/g, "");
   if (digits.length === 9) {
@@ -54,7 +70,7 @@ export function TopBar({ settings }: { settings: SiteSettings }) {
     { href: settings.socialLinks.facebook, label: "Facebook", Icon: FacebookIcon },
     { href: settings.socialLinks.instagram, label: "Instagram", Icon: InstagramIcon },
     { href: settings.socialLinks.linkedin, label: "LinkedIn", Icon: LinkedInIcon },
-  ].filter((s) => Boolean(s.href));
+  ].filter((s) => isRealSocialUrl(s.href));
 
   return (
     <div className="bg-brand-green text-white">
